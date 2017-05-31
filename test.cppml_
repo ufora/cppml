@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+
+
+
+@type X = 
+	A of int a
+with
+	int z = (1),
+	int z2 = (2)
+	;
+
+
+int main(int argc, char** argv)
+	{
+	X x1 = X::A(1);
+
+	std::cout << x1.z() << "\n";
+	}
+	
+	
+	
