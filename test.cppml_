@@ -16,6 +16,8 @@ int main(int argc, char** argv)
 	X x1 = X::A(1);
 
 	std::cout << x1.z() << "\n";
+
+	return 0;
 	}
 	
 	
